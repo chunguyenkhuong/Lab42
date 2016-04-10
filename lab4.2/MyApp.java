@@ -28,4 +28,10 @@ public class main {
 		product.countValue() = newBalance;
 		System.out.println("Changed Balance: ", product.countValue());
 	}
+	
+	public void changePrice(int newvalue)
+	{
+		this.price = newvalue;
+		System.out.println("Changed Price: ", product.price());
+	}
 }
