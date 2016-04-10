@@ -30,9 +30,9 @@ public class main {
 		System.out.println("Changed Balance: ", product.countValue());
 	}
 	
-	public void changePrice(int newvalue)
+	public void changePrice(double newvalue)
 	{
 		this.price = newvalue;
-		System.out.println("Changed Price: ", product.price());
+		System.out.println("Changed Price: ", this.price);
 	}
 }
