@@ -4,6 +4,7 @@ public class main {
 	 System.out.println("Product value is " + product.countValue());
 	 product.printProduct();
 	 product.changeBalance(5);
+	 product.changePrice(5);
 	 }
 	}
 	class Product {
@@ -27,5 +28,11 @@ public class main {
 		int newBalance = product.countValue() + newvalue;
 		product.countValue() = newBalance;
 		System.out.println("Changed Balance: ", product.countValue());
+	}
+	
+	public void changePrice(int newvalue)
+	{
+		this.price = newvalue;
+		System.out.println("Changed Price: ", product.price());
 	}
 }
